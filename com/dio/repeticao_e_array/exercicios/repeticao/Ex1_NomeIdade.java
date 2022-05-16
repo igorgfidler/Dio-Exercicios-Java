@@ -33,8 +33,8 @@ public class Ex1_NomeIdade {
                 try {
                     Thread.sleep(1000);
                 } catch (InterruptedException e1) {
-                    // TODO Auto-generated catch block
                     e1.printStackTrace();
+                    System.exit(1);
                 }
             } catch (NoSuchElementException | IllegalStateException e) {
                 // Estamos lidando com System.in, então sempre haverá o que ler.
