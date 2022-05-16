@@ -4,7 +4,7 @@ import java.util.OptionalInt;
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
-public class Ex06_Fatorial {
+public class Ex6_Fatorial {
     public static void main(String[] args) {
         try (Scanner s = new Scanner(System.in)) {
             System.out.print("Insira um número para mostrar o fatorial: ");
