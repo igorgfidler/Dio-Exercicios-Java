@@ -22,7 +22,7 @@ public class Ex_PopulacaoEstados {
         // checando se PB está no mapa, se não inserir a população do estado
         populacaoEstados.putIfAbsent("PB", 4_039_277);
         // Exibindo a população de PE
-        System.out.println("População de PE" + populacaoEstados.get("PE"));
+        System.out.println("População de PE " + populacaoEstados.get("PE") + " habitantes.");
 
         // Exibindo todos os estados e suas populações por ordem de inserção
         populacaoEstados.keySet().stream()
