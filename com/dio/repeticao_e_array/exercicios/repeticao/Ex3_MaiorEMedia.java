@@ -36,5 +36,7 @@ public class Ex3_MaiorEMedia {
                 "O maior valor é: " + (maiorValor.isPresent() ? maiorValor.getAsInt() : "nenhum valor foi inserido"));
         System.out.println(
                 "A média dos valores é: " + (media.isPresent() ? media.getAsDouble() : "nenhum valor foi inserido"));
+        // This works too
+        System.out.println(list.stream().mapToInt(x -> x).summaryStatistics());
     }
 }
